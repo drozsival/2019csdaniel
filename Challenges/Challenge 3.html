@@ -4,6 +4,7 @@
     <title></title>
     <style>
         .thing{
+            display: inline-block;
             width: 100px;
             height: 100px;
             line-height: 100px;
@@ -13,10 +14,18 @@
             overflow:hidden;
         }
         .type1{
-            background-color: darkred;
+            background-color: darkblue;
+            font-size: 15px;
         }
         .type2{
-            background-color: darkblue;
+            background-color: green;
+            font-family: "Kranky";
+            font-size: 50px;
+            border-radius: 25%
+        }
+        .type3{
+            background-color: green;
+            border-radius: 50%;
             font-family: "Kranky";
             font-size: 50px;
         }
@@ -29,7 +38,10 @@
 <body>
     <div class='thing type1'>1</div>
     <div class='thing type2'>2</div>
-    <div class='thing type2 circle'>3</div>
-    <div class='thing type1 circle'>4</div>
+    <div class='thing type1 circle'>3</div>
+    <div class='thing type3'>4</div>
+    <div class='thing type1'>5</div>
+    <div class='thing type2'>6</div>
+    <div class='thing type1'>7</div>
 </body>
 </html>
