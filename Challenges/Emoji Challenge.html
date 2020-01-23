@@ -15,17 +15,22 @@
             }
             .eye{
                 height: 100px;
-                width: 100px;
+                width: 135px;
                 border-radius: 50%;
                 background-color: white;
                 position: absolute;
                 top: 100px;
             }
             .pupil{
-                height: 50px;
+                height: 40px;
                 width: 50px;
                 background-color: black;
                 border-radius:50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%)
+
                 
             }
             #leftEye{
@@ -37,9 +42,16 @@
             #mouth{
                 background: url('emojiMouth.png') no-repeat center center;
                 background-size:contain;
+                width:200px;
+                height:200px;
+                transform: translate(75%,140%);
             }
             #tongue{
-              
+                background: url('emojiTongue.png') no-repeat center center;
+                background-size:  contain;
+                height: 80px;
+                width: 80px;
+                transform: translate(75%,90%)
 
           
             }
