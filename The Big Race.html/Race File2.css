@@ -10,7 +10,7 @@ body{
     border-radius: 40px;
     position: relative;
 }
-
+ 
 #inner{
     width: 500px;
     height: 200px;
@@ -21,39 +21,50 @@ body{
     left: 100px;
     top: 100px;
 }
-
+ 
 #finishLine{
     width: 40px;
-    height: 120px;
+ 
     font-size: 0;
     position: absolute;
     left: 210px;
-    top: 300px;
+    top: 310px;
 }
-
+ 
 .checker{
     width: 10px;
     height: 10px;
     display: inline-block;
 }
-
+ 
 .black{
     background-color: black;
 }
-
+ 
 .white{
     background-color: white;
 }
-
+ 
 .car{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     position: absolute;
 }
-
+ 
 #car1{
-    background-color: purple;
+    background-color: orange;
+    left: 100px;
+    top: 300px;
+}
+ 
+#car2{
+    background-color: deepskyblue;
+    left: 100px;
+    top: 300px;
+}
+#car3{
+    background-color: rgb(255, 0, 179);
     left: 100px;
     top: 300px;
 }
