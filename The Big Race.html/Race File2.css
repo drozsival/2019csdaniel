@@ -53,18 +53,21 @@ body{
 }
  
 #car1{
-    background-color: orange;
+    background: url('red car.png') no-repeat center center;
+    background-size:contain;;
     left: 100px;
     top: 300px;
 }
  
 #car2{
-    background-color: deepskyblue;
+    background: url('green car.png') no-repeat center center;
+    background-size:contain;
     left: 100px;
-    top: 300px;
+    top: 330px;
 }
 #car3{
-    background-color: rgb(255, 0, 179);
+    background: url('orange car.png') no-repeat center center;
+    background-size:contain;
     left: 100px;
-    top: 300px;
+    top: 360px;
 }
