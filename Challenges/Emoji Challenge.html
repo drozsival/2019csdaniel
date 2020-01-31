@@ -57,22 +57,11 @@
                 bottom: 10px;
                 transform: translateX(-50%);
             }
-            #ear{
-                background: url('emojiMouth.png') no-repeat center center;
-                background-size:contain;
-                width:140px;
-                height:90px;
-                transform: rotate(135deg);
-                position: absolute;
-                /*transform: translateX(30%)*/
-                
-
-            }
            </style>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     </head>
     <body>
         <div id='face'>
-            <div id='ear'></div>
             <div id='leftEye' class='eye'>
                 <div class='pupil'></div>
             </div>
@@ -84,4 +73,5 @@
             </div>
         </div>
     </body>
+    <script src="pupil.js"></script>
 </html>
