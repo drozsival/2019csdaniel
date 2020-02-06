@@ -1,4 +1,4 @@
-        body{
+         body{
             font-size: 20px;
             font-family: 'Fredoka One';
             color:coral;
@@ -61,10 +61,12 @@
         vertical-align: top;
         height: 30px;
         width: 80px;
+        border: 3px solid coral;
         border-radius: 9px;
-        background-color: lightgreen;
+        background-color: blue;
         font-size: 20px;
         font-family: 'Fredoka One';
         text-align: center;
         text-decoration-color: black;
+        line-height: 30px;
         }
