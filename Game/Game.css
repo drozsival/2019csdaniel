@@ -3,17 +3,38 @@ body{
     background-color: black;
 }
 #outer{
-    width: 500px;
-    height: 480px;
+    width: 510px;
+    height: 510px;
     background-color: #222;
     border: 8px solid chartreuse;
     border-radius: 40px;
     position: relative;
 }
 .dot{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: chartreuse;
+    float: left;
 }
-
+.line{
+    height:25px;
+    width: 93.75px;
+    border: 1px solid red;
+    float: left;
+    box-sizing: border-box;
+}
+.box{
+    height: 93.75px;
+    width: 93.75px;
+    border: 1px solid blue;
+    float: left;
+    box-sizing: border-box;
+}
+.vert{
+    height: 93.75px;
+    width: 25px;
+    border: 1px solid orange;
+    float: left;
+    box-sizing: border-box;
+}
