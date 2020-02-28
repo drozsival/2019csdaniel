@@ -6,9 +6,25 @@ var numCols = 5;
             for(var c=0; c<numCols; c++){
                 $('#outer').append("<div class='dot'></div>");
                 if(c<numCols-1){
-                    var tValue = r/2;
-                    var bValue = 
-                    $('#outer').append("<div class='line' t='"+tValue+"'></div>");
+                    var tValue;
+                    if(r/2<numRows-1){
+                        tValue = r/2;
+                    }
+                    else{
+                        tValue = -1;
+                    }
+
+                    var bValue;
+                    if(r<=0){
+                        bValue = -1
+                    }
+                    else{
+                        bValue = r/2
+                    }
+
+                        
+
+                    $('#outer').append("<div class='line' t='"+tValue+"' b= '"+bValue+"'></div>");
                 }
             }
         }
