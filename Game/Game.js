@@ -41,12 +41,12 @@ var numCols = 5;
                         rValue = -1;
                     }
                     else{
-                        rValue = r;
+                        rValue = c-1;
                     }
 
                     $('#outer').append("<div class='vert' l='"+lValue+"' r= '"+rValue+"' ></div>");
                     if(c<numCols-1){
-                        $('#outer').append("<div class='box'></div>");
+                        $('#outer').append("<div class='box' row='"+(r-1)/2+"' col='"+c+"'></div>");
                     }
                 }
             }
