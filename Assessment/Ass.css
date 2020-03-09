@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-    .box{
+        .box{
             display: inline-block;
             width: 200px;
             height: 100px;
@@ -29,4 +29,14 @@
             width: 1220px;
             background-color: indigo;
             border-radius: 15px;
+        }
+        #outer{
+            height: 600px;
+            width: 600px;
+            background-color: lightgreen;
+        }
+        .innerbox{
+            height: 50px;
+            width: 50px;
+            border: 1px grey solid;
         }
